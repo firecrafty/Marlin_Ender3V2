@@ -1468,7 +1468,7 @@
   #endif
 
   // Add an optimized binary file transfer mode, initiated with 'M28 B1'
-  //#define BINARY_FILE_TRANSFER
+  #define BINARY_FILE_TRANSFER
 
   /**
    * Set this option to one of the following (or the board's defaults apply):
@@ -2144,7 +2144,7 @@
  * Currently handles M108, M112, M410, M876
  * NOTE: Not yet implemented for all platforms.
  */
-//#define EMERGENCY_PARSER
+#define EMERGENCY_PARSER
 
 /**
  * Realtime Reporting (requires EMERGENCY_PARSER)
